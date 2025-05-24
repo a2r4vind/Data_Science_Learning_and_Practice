@@ -7,7 +7,7 @@ from PIL import Image
 
 # Page Title
 
-image = Image.open('/home/akki/Data_Science_Learning_and_Practice/data_science_projects/ DNA_Web_App_Logo.jpg')
+image = Image.open('/home/akki/Data_Science_Learning_and_Practice/Application/DNA/ DNA_Web_App_Logo.jpg')
 st.image(image, use_container_width=True)
 
 st.write(""""

@@ -6,10 +6,11 @@ import seaborn as sns
 import numpy as np
 from PIL import Image
 
-
 st.title('NBA Player Statistics Explorer')
 
-image = Image.open('/home/akki/Data_Science_Learning_and_Practice/data_science_projects/basketball_app_logo.png')
+
+
+image = Image.open('/home/akki/Data_Science_Learning_and_Practice/Application/BasketBall/basketball_app_logo.png')
 st.image(image, use_container_width=True)
 
 st.markdown("""

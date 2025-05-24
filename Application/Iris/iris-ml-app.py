@@ -5,7 +5,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
 
-image = Image.open('/home/akki/Data_Science_Learning_and_Practice/data_science_projects/Iris_Prediction_App.png')
+image = Image.open('/home/akki/Data_Science_Learning_and_Practice/Application/Iris/Iris_Prediction_App.png')
 st.image(image,use_container_width=True)
 
 st.write("""
